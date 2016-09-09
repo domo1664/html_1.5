@@ -1,0 +1,49 @@
+.container{
+	width: 100%;
+	height: 600px;
+	position: absolute;
+	background:url("work.jpeg");
+	background-size:cover;
+	background-position : center;
+	margin: 5% 0 0 0;
+}
+
+.container p{
+	text-align: center;
+	margin-top: 20%;
+	font-size:10vw;
+	color: white;	
+	font-family: Helvetica, Arial, sans-serif;
+    font-weight: bold;
+    text-decoration: underline;
+}
+body{
+	margin: 0;
+	background-color: #35A7FF;
+}
+
+.navi li{
+	
+	display: inline;
+	margin-right: 1%;
+}
+ .navi{
+ 	text-align: center;
+ 	padding: 2% 0 2%;
+ 	background-color: #FFE66D;
+ }
+
+li , a {
+	text-decoration: none;
+	color: #35A7FF;
+	font-size: 100%;
+	font-family: Helvetica, Arial, sans-serif;
+}
+
+a:hover{
+	color: #1C77C3;
+	transition: all 300ms;
+}
+
+
+
